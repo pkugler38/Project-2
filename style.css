@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(#FC5E55 , #FA4083);
+    background-image: linear-gradient(#218394 , #eee235);
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 1.125rem;
@@ -159,3 +159,11 @@ p {
     box-sizing: border-box;
     margin-top: 50px;
 }
+
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+
