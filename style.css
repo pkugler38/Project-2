@@ -141,6 +141,8 @@ p {
     border: 1px solid white;
     padding: 11px 25px;
     font-family: 'Playfair Display SC', serif;
+    display: inline-block;
+    position: relative;
 }
 
 
@@ -167,3 +169,24 @@ p {
 }
 
 
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 130px;
+    background-color: white;
+}
+
+.dropdown .navbutton a {
+    color: #218394;
+}
